@@ -7,6 +7,7 @@ repo_name: hostedposted/CheatMenu
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -32,6 +33,10 @@ theme:
 
 plugins:
   - search
+
+extra:
+  version:
+    provider: mike
 
 markdown_extensions:
   - abbr
