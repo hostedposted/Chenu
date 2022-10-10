@@ -9,7 +9,7 @@ In the cheat menu directory, there will be a configuration file called ``cheat-m
 It will look something like this:
 
 ```js linenums="1" title="cheat-menu-config.js"
-/** @type {import("cheat-menu-cli").Config} */
+/** @type {import("chenu-cli").Config} */
 export const config = {
     title: "Example Cheat Menu",
     categories: []
@@ -19,7 +19,7 @@ export const config = {
 In the ``categories`` array, you can add categories. A category should be a string. For example:
 
 ```js linenums="1" title="cheat-menu-config.js"
-/** @type {import("cheat-menu-cli").Config} */
+/** @type {import("chenu-cli").Config} */
 export const config = {
     title: "Example Cheat Menu",
     categories: ["Example Category"]

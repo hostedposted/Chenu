@@ -1,6 +1,6 @@
 # Getting Started
 
-Creating a Cheat Menu is really easy.
+Creating a cheat menu is really easy.
 
 ## Pre Requirements
 
@@ -14,7 +14,7 @@ To create a cheat menu, you need to have the following:
 Generating a cheat menu is easy. First, you need to install the CLI. To install the CLI, run the following command:
 
 ```bash
-npm install -g cheat-menu-cli
+npm install -g chenu-cli
 ```
 
 Now let's create a cheat menu!
@@ -24,7 +24,7 @@ Now let's create a cheat menu!
 To create a cheat menu, run the following command:
 
 ```bash
-cheat-menu-cli init
+chenu-cli init
 ```
 
 You will be asked a few questions. Answer them and you will have a cheat menu!
