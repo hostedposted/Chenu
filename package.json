@@ -1,9 +1,16 @@
 {
-    "name": "cheat-menu",
+    "name": "chenu",
     "version": "1.0.0",
     "description": "Easily create cheat menu's for games!",
+    "keywords": [
+        "cheat-menu",
+        "cheat menu",
+        "hack",
+        "cheat",
+        "menu"
+    ],
     "main": "lib/index.js",
-    "repository": "https://github.com/hostedposted/CheatMenu",
+    "repository": "https://github.com/hostedposted/Chenu",
     "author": "hostedposted <hostedpostedsite@gmail.com>",
     "license": "MIT",
     "readme": "README.md",
