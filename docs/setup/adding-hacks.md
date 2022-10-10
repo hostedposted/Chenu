@@ -29,7 +29,7 @@ export const config = {
 Once you have added the category to the configuration file, you need to create a file for the category. Under the ``src`` directory, there should be a ``hacks`` directory. This is the directory where you will have your category code. Create a file with the name of the category. For this example, we will name the file ``example.ts``. The file should look something like this:
 
 ```ts linenums="1" title="src/hacks/example.ts"
-import { success, withCategory } from "cheat-menu"
+import { success, withCategory } from "chenu"
 
 withCategory("Example Category", ({ hack, toggle, shouldShow }) => {
 
@@ -47,7 +47,7 @@ The ``withCategory`` function takes two arguments. The first argument is the cat
 To add a hack, you will need to use the ``hack`` function. The ``hack`` function takes three arguments. The first argument is the hack's name. The second argument is the hack's description. The third argument is the hack code. The hack code is run when the hack is clicked. For example:
 
 ```ts linenums="1" title="src/hacks/example.ts"
-import { success, withCategory } from "cheat-menu"
+import { success, withCategory } from "chenu"
 
 withCategory("Example Category", ({ hack, toggle, shouldShow }) => {
     hack("Example Hack", "This is an example hack", () => {
@@ -69,7 +69,7 @@ This will create a cheat menu looking like this:
 To add a toggle, you will need to use the ``toggle`` function. The ``toggle`` function takes two arguments. The first argument is the toggle's name. The second argument is the toggle code. The toggle code is run when the toggle is clicked. The toggle code gets a boolean as an argument. The boolean is ``true`` if the toggle is on, and ``false`` if the toggle is off. For example:
 
 ```ts linenums="1" title="src/hacks/example.ts"
-import { success, withCategory } from "cheat-menu"
+import { success, withCategory } from "chenu"
 
 withCategory("Example Category", ({ hack, toggle, shouldShow }) => {
     toggle("Example Toggle", (on) => {
