@@ -9,7 +9,7 @@ interface MenuTogglerProps {
 
 const Button = styled.button`
     position: fixed;
-    z-index: 10000;
+    z-index: 1050;
     background-color: #e5e7ebe5;
     border: none;
     top: 0;

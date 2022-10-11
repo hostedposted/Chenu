@@ -25,7 +25,7 @@ const MainDiv = styled.div`
     overflow-y: scroll;
     background-color: #e5e7ebe5;
     top: ${props => props.visible as boolean ? "0px" : "-40vh"};
-    z-index: 9999;
+    z-index: 1049;
 `
 
 const Title = styled.h1`
