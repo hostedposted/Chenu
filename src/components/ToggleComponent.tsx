@@ -1,6 +1,7 @@
 import type { FunctionalComponent } from "preact"
 import { useState } from "preact/hooks"
 import { Handler } from "src/hack/hack.js"
+import { error as alertError } from "src/utils/swal.js"
 import { ArgumentFailureError } from "../utils/swal.js"
 import styled from "styled-components"
 
@@ -83,7 +84,7 @@ const ToggleComponent: FunctionalComponent<ToggleComponentProps> = ({ name, hand
             await handler(toggledState)
         } catch (error) {
             if (error instanceof ArgumentFailureError) return
-            throw error
+            void alertError("An error occurred while running the hack. Try refreshing the page, and using the hack again.")
         }
     }
 
