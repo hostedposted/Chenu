@@ -1,7 +1,6 @@
 import type { FunctionalComponent } from "preact"
 import { Handler } from "src/hack/hack.js"
-import { error as alertError } from "src/utils/swal.js"
-import { ArgumentFailureError } from "../utils/swal.js"
+import { error as alertError, ArgumentFailureError } from "../utils/swal.js"
 import styled from "styled-components"
 
 interface HackComponentProps {

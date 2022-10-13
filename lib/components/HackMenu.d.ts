@@ -1,5 +1,5 @@
 import { ComponentChildren, FunctionalComponent } from "preact";
-import { CategoryData } from "src/hack/category.js";
+import { CategoryData } from "../hack/category.js";
 interface HackMenuProps {
     hacks?: CategoryData[];
     title: string;
